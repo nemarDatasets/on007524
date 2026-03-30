@@ -2,12 +2,9 @@
     "Name": "LittlePrince_MEG_French_Read_Pallier2025",
     "BIDSVersion": "1.6.0",
     "DatasetType": "raw",
-    "License": "CC0",
+    "License": "Open Data Commons Public Domain Dedication and License (PDDL)",
     "Authors": [
-        "Corentin Bel",
-        "Julie Bonnaire",
-        "Jean-Rémi King",
-        "Christophe Pallier"
-    ],
-    "DatasetDOI": "doi:10.18112/openneuro.ds007524.v1.0.0"
+        "Corentin Bel", "Julie Bonnaire",  "Jean-Rémi King", "Christophe Pallier" ]
 }
+
+

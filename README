@@ -2,7 +2,7 @@
 
 This dataset contains magnetoencephalography (MEG) recordings collected while participants read the French text of *Le Petit Prince* presented using a rapid serial visual presentation (RSVP) paradigm.
 
-A separate dataset containing MEG recordings from the auditory paradigm is available on OpenNeuro (accession number: ds007523).
+A separate dataset containing MEG recordings from the auditory listening paradigm is available on OpenNeuro (accession number: ds007149).
 
 This data is analyzed in:
 
@@ -25,7 +25,7 @@ The stimulus consisted of the French text of *Le Petit Prince*.
 The text was presented using a rapid serial visual presentation (RSVP) paradigm:
 
 - Words were displayed individually in white font on a black background  
-- Word duration: 250 ms  
+- Word duration: 225 ms  
 - Inter-word interval: 50 ms (black screen)  
 - Sentence-final pause: 500 ms  
 
@@ -73,6 +73,8 @@ The root directory includes:
 - `participants.tsv` and `participants.json`  
 - `task-read_events.json`  
 - `sub-01` to `sub-50`  
+- `sourcedata/`  
+- `derivatives/`  
 
 Each subject directory (`sub-XX`) contains one session (`ses-01`) with:
 
@@ -88,6 +90,13 @@ Each subject directory (`sub-XX`) contains one session (`ses-01`) with:
 Each run corresponds to one text segment.
 
 Acquisition parameters are provided in the corresponding sidecar JSON files.
+
+### Derivatives
+
+The `derivatives/` directory contains:
+
+- `freesurfer/`: subject-specific FreeSurfer reconstructions and morph maps  
+- `preprocessed_data/`: preprocessed MEG data (including SSS-processed files), forward and inverse solutions, noise covariance matrices, source spaces, transformation files, evoked data, and source time courses.
 
 ------------------------------------------------------------------------
 
