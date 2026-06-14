@@ -1,3 +1,5 @@
+[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.on007524-blue)](https://doi.org/10.82901/nemar.on007524)
+
 ## Summary
 
 This dataset contains magnetoencephalography (MEG) recordings collected while participants read the French text of *Le Petit Prince* presented using a rapid serial visual presentation (RSVP) paradigm.
