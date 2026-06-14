@@ -1,32 +1,93 @@
 {
   "version": "2.0",
-  "dataset_id": "on007524",
-  "source": "openneuro",
-  "source_id": "ds007524",
+  "pipeline_stage": "validated",
   "title": "LittlePrince_MEG_French_Read_Pallier2025",
+  "license": "CC0",
+  "dataset_type": "raw",
   "authors": {
     "Corentin Bel": {},
     "Julie Bonnaire": {},
     "Jean-Rémi King": {},
-    "Christophe Pallier": {}
+    "Christophe Pallier": {
+      "orcid": "0000-0002-3324-666X"
+    }
   },
-  "license": "CC0",
-  "dataset_type": "raw",
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds007524.v1.1.0",
       "identifier_type": "DOI",
       "relation_type": "IsIdenticalTo"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on007524",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on007524",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.1038/s41467-025-65499-0",
+      "identifier_type": "DOI",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.1038/sdata.2018.110",
+      "identifier_type": "DOI",
+      "relation_type": "References"
     }
   ],
-  "pipeline_stage": "seeded",
-  "bids_version": "1.6.0",
-  "recording_modality": [
-    "anat",
-    "meg"
+  "resource_type_general": "Dataset",
+  "modalities": [
+    "meg",
+    "anat"
   ],
-  "datatypes": [
-    "anat",
-    "meg"
-  ]
+  "resource_type_specific": "MEG Dataset",
+  "sizes": [
+    "321.6 GB (545 files)"
+  ],
+  "formats": [
+    ".TextGrid",
+    ".dat",
+    ".fif",
+    ".gz",
+    ".json",
+    ".md",
+    ".py",
+    ".sh",
+    ".tsv",
+    ".txt",
+    ".wav",
+    ".yml"
+  ],
+  "description": "This dataset comprises magnetoencephalography (MEG) recordings from 50 healthy French-speaking adults reading the French text of *Le Petit Prince* presented via rapid serial visual presentation (RSVP). Each participant completed 9 experimental runs while MEG, electrooculogram, and electrocardiogram signals were recorded continuously. High-resolution anatomical MRI scans were acquired for each participant to enable source localization and cortical surface reconstruction. The dataset supports investigation of neural mechanisms underlying word processing and reading comprehension at the single-word level.",
+  "methods_description": "MEG data were recorded using a whole-head Elekta Neuromag TRIUX system (102 magnetometers, 204 planar gradiometers) at 1000 Hz sampling rate with online filtering (0.1–330 Hz). Vertical and horizontal electrooculograms and electrocardiogram were recorded simultaneously using bipolar electrodes. Stimuli consisted of individual French words displayed for 225 ms with 50 ms inter-word intervals and 500 ms sentence-final pauses using RSVP. High-resolution T1-weighted anatomical MRI scans were acquired on a 3T Siemens Magnetom Prisma scanner using a standard MPRAGE sequence for coregistration and cortical surface reconstruction.",
+  "keywords": [
+    {
+      "term": "MEG"
+    },
+    {
+      "term": "Magnetoencephalography",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D015225"
+    },
+    {
+      "term": "reading comprehension"
+    },
+    {
+      "term": "rapid serial visual presentation"
+    },
+    {
+      "term": "word processing"
+    },
+    {
+      "term": "brain imaging"
+    },
+    {
+      "term": "neuroimaging"
+    }
+  ],
+  "source_hash": "ac5fc5074b80710051d00674165f1d9b2ad528cc1b190a52c6e87c9ebd63dcbd"
 }
