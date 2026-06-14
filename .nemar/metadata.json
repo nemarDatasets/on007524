@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "LittlePrince_MEG_French_Read_Pallier2025",
-  "description": "This dataset comprises magnetoencephalography (MEG) recordings from 50 healthy French-speaking adults reading the French text of *Le Petit Prince* presented via rapid serial visual presentation (RSVP). Each participant completed 9 experimental runs with words displayed at 225 ms duration and 50 ms inter-word intervals. The dataset includes high-resolution anatomical MRI scans, preprocessed MEG data with source reconstructions, and FreeSurfer cortical surface models, enabling investigation of neural mechanisms underlying word recognition and reading comprehension.",
-  "methods_description": "MEG data were recorded using a whole-head Elekta Neuromag TRIUX system (102 magnetometers, 204 planar gradiometers) at 1000 Hz sampling rate with online filtering (0.1–330 Hz). Vertical and horizontal electrooculograms and electrocardiograms were recorded simultaneously. High-resolution T1-weighted anatomical MRI scans were acquired on a 3T Siemens Magnetom Prisma using MPRAGE sequence for coregistration and cortical surface reconstruction. Stimuli were presented using RSVP with words displayed individually (225 ms duration, 50 ms inter-word interval, 500 ms sentence-final pause) across 9 runs (mean duration 8 min 10 s).",
+  "description": "This dataset comprises magnetoencephalography (MEG) recordings from 50 healthy French-speaking adults reading the French text of *Le Petit Prince* presented via rapid serial visual presentation (RSVP). Each participant completed 9 experimental runs while MEG, electrooculogram, and electrocardiogram signals were continuously recorded at 1000 Hz. High-resolution anatomical MRI scans were acquired for each participant to enable source localization and cortical surface reconstruction.",
+  "methods_description": "MEG data were recorded using a whole-head Elekta Neuromag TRIUX system (102 magnetometers, 204 planar gradiometers) at 1000 Hz sampling rate with online filtering (0.1–330 Hz). Words were presented individually in white font on black background for 225 ms with 50 ms inter-word intervals and 500 ms sentence-final pauses. Participants viewed stimuli from 100 cm distance while maintaining fixation. Vertical and horizontal EOG and ECG were recorded bipolarly. High-resolution T1-weighted anatomical MRI scans were acquired on a 3T Siemens Magnetom Prisma using MPRAGE sequence for coregistration and source analysis.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -16,30 +16,27 @@
   },
   "keywords": [
     {
+      "term": "MEG"
+    },
+    {
       "term": "Magnetoencephalography",
       "subject_scheme": "MeSH",
       "value_uri": "http://id.nlm.nih.gov/mesh/D015225"
     },
     {
-      "term": "MEG"
-    },
-    {
       "term": "reading"
-    },
-    {
-      "term": "language processing"
     },
     {
       "term": "rapid serial visual presentation"
     },
     {
-      "term": "RSVP"
+      "term": "language processing"
     },
     {
-      "term": "source reconstruction"
+      "term": "brain imaging"
     },
     {
-      "term": "word recognition"
+      "term": "source localization"
     }
   ],
   "related_identifiers": [
